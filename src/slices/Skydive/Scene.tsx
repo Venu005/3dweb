@@ -161,7 +161,7 @@ export default function Scene({ sentence, flavor }: SkyDiveProps) {
       </group>
 
       {/* Lights */}
-      <OrbitControls />
+      {/* <OrbitControls /> */}
       <ambientLight intensity={2} color="#9DDEFA" />
       <Environment files="/hdr/field.hdr" environmentIntensity={1.5} />
     </group>
