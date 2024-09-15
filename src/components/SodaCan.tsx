@@ -1,6 +1,6 @@
 "use client";
 
-import { useGLTF, useTexture } from "@react-three/drei";
+import { Text, useGLTF, useTexture } from "@react-three/drei";
 import * as THREE from "three";
 
 useGLTF.preload("/Soda-can.gltf");
@@ -66,3 +66,5 @@ export function SodaCan({
     </group>
   );
 }
+
+

@@ -3,9 +3,10 @@ import FloatingCan from "@/components/FloatingCan";
 import { useGSAP } from "@gsap/react";
 import { Environment } from "@react-three/drei";
 import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import React, { useRef } from "react";
 import { Group } from "three";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 import { useStore } from "@/hooks/store";
 type Props = {};
 gsap.registerPlugin(useGSAP, ScrollTrigger);
